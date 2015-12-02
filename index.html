@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Media Module</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/module.css" rel="stylesheet">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="js/module.js"></script>
+</head>
+
+<body>
+	
+	<div id="module">
+		<h3 title="1 by AOL"><a href="http://www.onebyaol.com"><img src="images/logo_72x50.png" alt="1 by AOL" /></a></h3>
+		<div class="tabs">
+			<ul class="clearfix">
+				<li data-tab="videoTab"><a href="#" id="videoTab" class="tab active">Video</a></li>
+				<li data-tab="galleryTab"><a href="#" id="galleryTab" class="tab">Gallery</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<div id="videoTabContent" class="active modContent">
+				<video controls autoplay poster="images/video_poster_300x169.jpg">
+				  <source src="http://downloads.pictela.net/assessment/video.mp4" type="video/ogg">
+				  <source src="http://downloads.pictela.net/assessment/video.webm" type="video/mp4">
+				  Your browser does not support the <code>video</code> element.
+				</video>
+			</div>
+			<div id="galleryTabContent" class="modContent" style="display: none;">
+				<div id="mainImage">
+				</div>
+				<ul class="clearfix" id="gallery">
+				</ul>	
+			</div>	
+		</div>	
+	</div>
+	
+</body>
+
+</html>

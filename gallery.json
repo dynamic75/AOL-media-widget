@@ -1,0 +1,24 @@
+{
+    "galleryImages": [
+        {
+            "mainImage": "http://downloads.pictela.net/assessment/gallery_image_1_270x270.jpg",
+            "thumbImage": "http://downloads.pictela.net/assessment/gallery_thumb_1_60x60.jpg",
+            "clickthroughUrl": "http://www.onebyaol.com"
+        },
+        {
+            "mainImage": "http://downloads.pictela.net/assessment/gallery_image_2_270x270.jpg",
+            "thumbImage": "http://downloads.pictela.net/assessment/gallery_thumb_2_60x60.jpg",
+            "clickthroughUrl": "http://www.onebyaol.com"
+        },
+        {
+            "mainImage": "http://downloads.pictela.net/assessment/gallery_image_3_270x270.jpg",
+            "thumbImage": "http://downloads.pictela.net/assessment/gallery_thumb_3_60x60.jpg",
+            "clickthroughUrl": "http://www.onebyaol.com"
+        },
+        {
+            "mainImage": "http://downloads.pictela.net/assessment/gallery_image_4_270x270.jpg",
+            "thumbImage": "http://downloads.pictela.net/assessment/gallery_thumb_4_60x60.jpg",
+            "clickthroughUrl": "http://www.onebyaol.com"
+        }
+    ]
+}
